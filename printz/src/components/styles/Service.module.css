@@ -1,0 +1,43 @@
+
+
+.silk h2,h1,h3,li{
+    text-align: center;
+    padding: 15px;
+    font-weight: bold;
+}
+
+.silk h2, h3{
+    font-size: 1.5rem;
+    color:darkgray
+}
+
+.silk li {
+    list-style: none;
+}
+
+
+
+
+@media only screen and (max-width: 600px) {
+    .silk p,li{
+    
+     margin: auto;
+    }
+    
+    .silk h2 {
+        font-size: 18px;
+    }
+    .silk p {
+        font-size: 1rem;
+    }
+    .silk li{
+        font-size: 1rem;
+    }
+  }
+
+  @media only screen and (max-width: 1020px) {
+    .silk p,li{
+        margin-left: 50px;
+    }
+    
+  }

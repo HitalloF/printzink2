@@ -1,0 +1,27 @@
+.vitrine {
+    background-color: aqua;
+    display: flex;
+}
+.title h1{
+    font-size: 20px ;
+}
+
+.vitrine li {
+    list-style: none;
+}
+
+.vitrine ul {
+    display: flex;
+}
+
+
+.vitrinebox h2{
+    font-size: 15px;    
+}   
+
+
+
+.vitrinebox img {
+    width: 240px;
+    display: flex;
+}

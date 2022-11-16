@@ -1,0 +1,17 @@
+.promotion {
+     background: tomato;
+     display: flex;
+justify-content: center;
+     align-items: center;
+}
+ .promotioncase {
+    padding: 20px;
+ }
+.promotionbox img {
+    width: 520px;
+}
+.promtionp {
+    margin-top: -100px;
+    color: white;
+}
+

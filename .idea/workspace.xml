@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="5db353d6-66b1-4747-a6a2-e2deb69651d7" name="Changes" comment="">
+      <change beforePath="$PROJECT_DIR$/printz/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/printz/package-lock.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/printz/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/printz/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/printz/public/favicon.ico" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/printz/public/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/printz/public/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/printz/public/logo192.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/printz/public/logo512.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/printz/src/components/About.js" beforeDir="false" afterPath="$PROJECT_DIR$/printz/src/components/About.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/printz/src/components/Body.js" beforeDir="false" afterPath="$PROJECT_DIR$/printz/src/components/Body.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/printz/src/components/Contact.js" beforeDir="false" afterPath="$PROJECT_DIR$/printz/src/components/Contact.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/printz/src/components/Footer.js" beforeDir="false" afterPath="$PROJECT_DIR$/printz/src/components/Footer.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/printz/src/components/Head.js" beforeDir="false" afterPath="$PROJECT_DIR$/printz/src/components/Head.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/printz/src/components/Home.js" beforeDir="false" afterPath="$PROJECT_DIR$/printz/src/components/Home.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/printz/src/components/Service.js" beforeDir="false" afterPath="$PROJECT_DIR$/printz/src/components/Service.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/printz/src/components/styles/Footer.module.css" beforeDir="false" afterPath="$PROJECT_DIR$/printz/src/components/styles/Footer.module.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/printz/src/components/styles/Head.module.css" beforeDir="false" afterPath="$PROJECT_DIR$/printz/src/components/styles/Head.module.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/printz/src/components/styles/Home.module.css" beforeDir="false" afterPath="$PROJECT_DIR$/printz/src/components/styles/Home.module.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/printz/src/img/faixa2.png" beforeDir="false" afterPath="$PROJECT_DIR$/printz/src/img/faixa2.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/printz/src/img/galery/bordado.png" beforeDir="false" afterPath="$PROJECT_DIR$/printz/src/img/galery/bordado.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/printz/src/img/galery/final.png" beforeDir="false" afterPath="$PROJECT_DIR$/printz/src/img/galery/final.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/printz/src/img/galery/heat.png" beforeDir="false" afterPath="$PROJECT_DIR$/printz/src/img/galery/heat.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/printz/src/img/galery/silk.png" beforeDir="false" afterPath="$PROJECT_DIR$/printz/src/img/galery/silk.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/printz/src/img/home/processo.png" beforeDir="false" afterPath="$PROJECT_DIR$/printz/src/img/home/processo.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/printz/src/img/logopz.png" beforeDir="false" afterPath="$PROJECT_DIR$/printz/src/img/logopz.png" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="ProjectId" id="2H3C2My0T6WTBXXEnU5UyTiZbpB" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true"
+  }
+}]]></component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="5db353d6-66b1-4747-a6a2-e2deb69651d7" name="Changes" comment="" />
+      <created>1667504177645</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1667504177645</updated>
+    </task>
+    <servers />
+  </component>
+</project>

@@ -1,0 +1,70 @@
+@media only screen and (max-width: 600px) {
+
+
+    .right p {
+        font-size: 0.9rem;
+        }
+
+    }    
+
+
+    @media only screen and (min-width: 601px) {
+        .right img{
+            width: 450px;
+            display: none;
+            }
+    }
+
+
+
+.footer{
+    justify-content: space-around;
+    list-style: none;
+    display: flex;
+    background: black;
+    padding: 20px;
+}
+.left img {
+    width: 150px;
+    padding: 15px;
+    justify-content: center;
+    align-items: center;
+}
+.social{
+    display: flex;
+}
+.social img {
+    width: 55px;
+}
+
+.about h3{
+    text-align: center;
+    color: white;
+}
+.about li{
+    text-decoration: none;
+    color: white;
+    list-style: none;
+}
+ .services a {
+    text-decoration: none;
+    color: white;
+ }
+.services h3{
+    text-align: center;
+    color: white;
+}
+.services li{
+    text-decoration: none;
+    color: white;
+    list-style: none;
+}
+
+.right h3{
+    color: white;
+    text-align: center;
+}
+.right p {
+    text-align: center;
+    color: white;
+}

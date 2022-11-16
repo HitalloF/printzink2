@@ -1,0 +1,126 @@
+
+  @media only screen and (max-width: 600px) {
+    .maquinasg {
+        background:whiter;
+        display: none;
+        padding: 0
+    }
+    .processo img {
+
+        max-width: 350px;
+        }
+    .maquinamobile {
+        background: black;
+        width: 350px;
+    }    
+    .maquina {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        margin: auto;
+        padding: 0;
+    }
+    .maquinamobile img{
+    max-width: 300px;    }   
+    .mobile img {
+        width: 440px;
+        margin: auto;
+        align-items: center;
+        justify-content: center;
+            }
+            .mobile {
+                display: flex;
+                margin: auto;
+                align-items: center;
+                justify-content: center;
+                background-color: black;
+        
+            }
+     
+  }
+  @media only screen and (min-width: 601px) {
+    .maquinasg {
+        background:whiter;
+    }
+    .mobile {
+        display: none;
+        background-color: black;
+
+    }
+    .mobile img {
+width: 350px;
+    }
+    .maquinasg img{
+        margin: auto;
+        justify-content: center;
+        align-items: center;
+      
+   
+        
+    }
+    .centroimg {
+        background-color: black;
+    }
+    .centroimg img{
+        width: 1200px;
+    }
+    .centroimg {
+        
+        display: flex;
+        justify-content: center;
+    }
+
+    .processo img {
+        max-width: 600px;
+        }
+
+  }
+
+
+.maquinas  {
+    background-color: aquamarine;
+
+    background: white;
+}
+
+
+.faixa img{
+    width: 100%;
+    margin-top: -15px;
+}
+.faixa2 img{
+    width: 100%;
+    margin-top: -15px;
+}
+
+
+
+.textimg img{
+    width: 400px;
+
+}
+
+.processo {
+    padding: 50px;
+    align-items: center;
+    align-content: center;
+    
+}
+.processo img {
+
+
+    }
+.processo h1 {
+    text-align: center;
+}
+.boximg {
+    display: flex;
+    justify-content: center;
+    
+}
+
+.galery {
+    padding: 20px;
+    background-color: black;
+}
+
