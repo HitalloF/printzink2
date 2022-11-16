@@ -7,6 +7,16 @@
     padding: 5px
     }
 
+.headtop {
+  display: flex;
+  background: black;
+  align-items: center;
+  justify-content: space-around;
+}
+.headtop img {
+max-width: 80px;
+
+}
 .header img {
   width: 10px;
 }

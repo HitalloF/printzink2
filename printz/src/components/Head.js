@@ -26,13 +26,15 @@ const Head = () => {
 
 
   return (
-    <div >
-    
-    <header className={styles.header}>
-      <div className={styles.boxnav}>
-        <a href="/">
+    <div className={styles.headtop}>
+          <a href="/">
           <img src={logo} alt="" />
         </a>
+    <header className={styles.header}>
+      <div>
+
+      <div className={styles.boxnav}>
+
         {mobile && (
           <button
             aria-label="Menu"
@@ -77,6 +79,7 @@ const Head = () => {
             CONTACT
           </NavLink> }
         </nav>
+      </div>
       </div>
     </header>
             <div className={styles.bgheader}></div>
