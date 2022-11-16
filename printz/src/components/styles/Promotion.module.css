@@ -3,6 +3,7 @@
      display: flex;
 justify-content: center;
      align-items: center;
+     padding: 25px;
 }
  .promotioncase {
     padding: 20px;

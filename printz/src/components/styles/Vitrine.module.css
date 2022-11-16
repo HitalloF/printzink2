@@ -1,9 +1,12 @@
 .vitrine {
     background-color: aqua;
     display: flex;
+    justify-content: center;
+    
 }
 .title h1{
     font-size: 20px ;
+    text-shadow: black 1px 1px 1px
 }
 
 .vitrine li {
@@ -23,5 +26,6 @@
 
 .vitrinebox img {
     width: 240px;
-    display: flex;
+    margin: 0 auto;
+
 }

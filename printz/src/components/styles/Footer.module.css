@@ -1,70 +1,36 @@
-@media only screen and (max-width: 600px) {
+.footer {
+background: black; 
+display: flex;
+justify-content: center;
 
-
-    .right p {
-        font-size: 0.9rem;
-        }
-
-    }    
-
-
-    @media only screen and (min-width: 601px) {
-        .right img{
-            width: 450px;
-            display: none;
-            }
-    }
-
-
-
-.footer{
-    justify-content: space-around;
-    list-style: none;
-    display: flex;
-    background: black;
-    padding: 20px;
 }
-.left img {
-    width: 150px;
-    padding: 15px;
-    justify-content: center;
+.footerlogo{
     align-items: center;
-}
-.social{
+    align-self: center;
     display: flex;
+    justify-content: space-around;
+    background: black;
+
 }
-.social img {
-    width: 55px;
+.footerlogo img {
+    max-width: 150px;
+    max-height: 150px;
+    
 }
 
-.about h3{
-    text-align: center;
-    color: white;
+.box h1{
+    font-size: 1.2rem;
+    text-align: left;
+    
 }
-.about li{
-    text-decoration: none;
+.footer p {
+    text-align: left;
     color: white;
-    list-style: none;
-}
- .services a {
-    text-decoration: none;
-    color: white;
- }
-.services h3{
-    text-align: center;
-    color: white;
-}
-.services li{
-    text-decoration: none;
-    color: white;
-    list-style: none;
+    font-size: 0.8rem;
 }
 
-.right h3{
-    color: white;
-    text-align: center;
-}
-.right p {
-    text-align: center;
-    color: white;
+.box img {
+    max-width: 40px;
+    padding: 5px;
+
 }

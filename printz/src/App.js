@@ -12,7 +12,7 @@ import Footer from "./components/Footer";
 import Body from "./components/Body";
 function App() {
   return (
-    <div>
+    <section>
       <Head />
     <Routes>  
        <Route path='/' element={<Body />} />
@@ -22,7 +22,8 @@ function App() {
     </Routes>
     
     <Footer/>
-   </div>
+   </section>
+   
   );
 }
 

@@ -7,46 +7,42 @@ import iconfb from '../img/fbicon.png';
 import map from '../img/map.png'
 const Footer = () => {
   return (
-    <section>
-
+    <footer >
+      <div className={styles.footerlogo}>
       <div className={styles.footer}>
-    <div className={styles.left}>
-    <div><img src={logo}></img></div>
-    <div className={styles.social}>
-    <div><img src={icontt}></img></div>
-    <div><a href='https://www.instagram.com/printzink/?igshid=YmMyMTA2M2Y=' target="_blank"><img src={iconinsta}></img></a></div>
-    <div><img src={iconfb}></img></div>
+    <div className={styles.box}>
+      <h1><strong>BRANDED BILLS</strong></h1>
+      <p><strong>Email:     <p><strong>sc@printzink.com</strong></p>
+    <p><strong>hb@printzink.com</strong></p> </strong></p>
+    <p><strong>Address:</strong></p>
+    <p>1441 SW 10th Ave, <strong>Pompano Beach</strong>, FL 33069, <strong>EUA</strong></p>
     </div>
+    <div className={styles.box}>
+      <h1><strong>INFORMATION</strong></h1>
+      <p>ABOUT US</p>
+      <p>PRIVACY POLICY</p>
+      <p>TERMS AND CONDITIONS</p>
+    </div>
+    <div className={styles.box}>
+      <h1><strong>CUSTOMER SERVICE</strong></h1>
+      <p>CONTACT US</p>
+      <p>FAQ</p>
+      <p></p>
 
-    <div className={styles.about  }>
 
     </div>
-    </div>
-    <div className='center'>
-       <div className={styles.services}>
-        <h3>Service</h3>
-        <p><a href='service'><strong>SILK SCREEN</strong></a></p>
-        <p><a href='service'><strong>HEAT PRESS</strong></a></p>
-        <p><a href='service'><strong>EMBROIDERY</strong></a></p>
-        <div>
+    <div className={styles.box}>
+      <h1>SOCIAL MIDIA</h1>
+      <div>
+      <img src={iconinsta}></img> <img src={icontt}></img><img src={iconfb}></img>
       </div>
-        <div>
-   
-        </div>
-        </div>
     </div>
-    <div className={styles.right}>
-        <div>
-        <h3 id="footer">Contact</h3>
-        </div>
-<p>1441 SW 10th Ave, <strong>Pompano Beach</strong>, FL 33069, <strong>EUA</strong></p>
-<p>PHONE NUMBER:<strong>561 599 1760</strong></p>
-    <p><strong>sc@printzink.com</strong></p>
-    <p><strong>hb@printzink.com</strong></p> 
-    </div>
-    </div>  
-    
-    </section>
+
+
+      </div>
+      <img src={logo}></img>
+      </div>
+    </footer>
   )
 }
 

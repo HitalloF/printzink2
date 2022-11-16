@@ -1,0 +1,35 @@
+
+
+
+
+
+.destaque {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 25px;
+}
+.destaquebox button {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 0 auto;
+}
+
+
+.destaque img {
+    max-width: 100%;
+}
+.destaquebox li {
+
+    justify-content: center;
+    font-size:0.9rem;
+    text-align: left;
+
+}
+.destaquetxt {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+

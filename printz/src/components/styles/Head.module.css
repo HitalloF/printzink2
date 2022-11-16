@@ -4,7 +4,12 @@
     background-position: center ;
 
     background-size: cover;
+    padding: 5px
     }
+
+.header img {
+  width: 10px;
+}
 
 .nav {
     display: flex;
@@ -49,7 +54,7 @@ display: flex;
     font-weight: bold;
   }
   .header img {
-    width: 100px;
+    width: 80px;
   }
   .block {
     display: flex;
@@ -64,10 +69,7 @@ display: flex;
 
   }
 
-  .header {
-    padding: 30px;
 
-  }
   .boxnav {
     display: flex;
     align-items: center;
