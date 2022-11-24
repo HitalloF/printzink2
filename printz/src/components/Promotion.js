@@ -7,15 +7,15 @@ const Promotion = () => {
       <div className={styles.promotioncase}>
     <div className={styles.promotionbox}>
       <img src={promotion1}></img>
-      <p className={styles.promtionp}>Find the perfect Gift</p>
-      <h3>HOLIDAY GIFT GUIE</h3>
+      <p className={styles.promtionp}>Find the perfect Gift<br/>HOLIDAY GIFT GUIE</p>
+      <h3></h3>
     </div>
       </div>
       <div className={styles.promotioncase}>
     <div className={styles.promotionbox}>
       <img src={promotion1}></img>
-      <p className={styles.promtionp}>Exclusive Seasonal Releases</p>
-      <h3>HOLIDAY COLETION</h3>
+      <p className={styles.promtionp}>Exclusive Seasonal Releases<br/>HOLIDAY COLETION</p>
+      <h3></h3>
     </div>
       </div>
     </section>

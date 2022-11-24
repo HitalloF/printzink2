@@ -17,20 +17,50 @@ justify-content: center;
     max-height: 150px;
     
 }
+.box {
+    padding: 5px;
+}
 
-.box h1{
-    font-size: 1.2rem;
-    text-align: left;
+.boxredes  {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    justify-items: center;
     
 }
-.footer p {
+.footer h1{
     text-align: left;
+    font-size: 1.2rem;
+}
+
+.footer p {
     color: white;
     font-size: 0.8rem;
+    text-align: left;
 }
 
 .box img {
     max-width: 40px;
     padding: 5px;
 
+}
+
+@media only screen and (max-width: 600px) {
+    .footerlogo img {
+        width: 30px;
+    }
+    .footer {
+       display: flex;  
+    }
+    .box h1{
+        font-size: 0.6rem;
+        text-align: left;
+        
+    }
+    .box p {
+        font-size: 0.55rem;
+    }
+    .logo {
+        display: none;
+    }
 }

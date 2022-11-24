@@ -1,5 +1,5 @@
 .vitrine {
-    background-color: aqua;
+    max-width: 100%;
     display: flex;
     justify-content: center;
     
@@ -29,3 +29,29 @@
     margin: 0 auto;
 
 }
+
+@media only screen and (max-width: 600px) {
+    .vitrinebox  {
+        max-width   : 130px;
+    }
+    .vitrinebox h2{ 
+        font-size: 8px;
+    }
+
+     .vitrine li {
+        margin: 0 auto;
+    }
+    .vitrinebox img  {
+
+        max-width: 50px;
+    }
+
+    .title h1{
+        font-size: 15px;
+    }
+
+    .vitrine p {
+        display: none;
+    }
+  }
+
