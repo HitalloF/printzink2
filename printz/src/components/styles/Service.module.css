@@ -1,5 +1,7 @@
 
-
+.sectionService {
+    padding: 15px;
+}
 .silk h2,h1,h3,li{
     text-align: center;
     padding: 15px;
@@ -15,7 +17,14 @@
     list-style: none;
 }
 
-
+.txtImg {
+    display: flex   ;
+    align-items: center;
+    justify-content: center;
+}
+.txtImg img {
+    max-width: 400px;
+}
 
 
 @media only screen and (max-width: 600px) {
@@ -32,6 +41,9 @@
     }
     .silk li{
         font-size: 1rem;
+    }
+    .txtImg {
+        display: none;
     }
   }
 

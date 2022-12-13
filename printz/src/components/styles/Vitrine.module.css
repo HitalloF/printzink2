@@ -5,7 +5,7 @@
     
 }
 .title h1{
-    font-size: 20px ;
+    font-size: 30px ;
     text-shadow: black 1px 1px 1px
 }
 
@@ -19,13 +19,15 @@
 
 
 .vitrinebox h2{
-    font-size: 15px;    
+    font-size: 25px;   
+    font-weight: bold;
+    padding: 10px;
 }   
 
 
 
 .vitrinebox img {
-    width: 240px;
+    width: 340px;
     margin: 0 auto;
 
 }
@@ -43,7 +45,7 @@
     }
     .vitrinebox img  {
 
-        max-width: 50px;
+        max-width: 130px;
     }
 
     .title h1{

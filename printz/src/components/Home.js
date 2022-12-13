@@ -14,32 +14,28 @@ const Home = () => {
   }, []);
 
   return (
-<>
-<div className={styles.mobile}>
+  <>
+  {/* <div className={styles.mobile}>
 
 
 
-<img src={maquinass} ></img></div>
-      <div  className={styles.maquinasg}>
-        <div className={styles.centroimg}>
-        <div className={styles.maquina}>
-        <img src={maquinass2} ></img>
-        </div>
-        <div className={styles.maquina}>
-        
-        </div>
-        </div>
-</div>
+  <img src={maquinass} ></img></div>
+        <div  className={styles.maquinasg}>
+          <div className={styles.centroimg}>
+          <div className={styles.maquina}>
+          <img src={maquinass2} ></img>
+          </div>
+          <div className={styles.maquina}>
+          
+          </div>
+          </div>
+  </div> */}
 
-      <div className='container'>
 
-      </div>
-        <div className={styles.faixa2}>
+        {/* <div className={styles.faixa2}>
           <img src={faixa2}></img>
-        </div>
-        <div className={styles.galery}>
-        <Galery />
-        </div>
+        </div> */}
+
         <div className={styles.processo}>
           <h1>OUR PROCESS</h1>
           <div className={styles.boximg}>

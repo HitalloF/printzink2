@@ -4,7 +4,7 @@
     background-position: center ;
 
     background-size: cover;
-    padding: 5px
+    padding: 10px
     }
 
 .headtop {
@@ -14,7 +14,8 @@
   justify-content: space-around;
 }
 .headtop img {
-max-width: 80px;
+max-width: 120px;
+padding: 10px;
 
 }
 .header img {

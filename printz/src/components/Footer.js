@@ -11,10 +11,10 @@ const Footer = () => {
       <div className={styles.footerlogo}>
       <div className={styles.footer}>
     <div className={styles.box}>
-      <h1>BRANDED BILLS</h1>
+      <h1>PrintZInk</h1>
       <p>Email:     <p>sc@printzink.com</p>
     <p>hb@printzink.com</p> </p>
-    <p>Address:</p>
+    <h1>Address</h1>
     <p>1441 SW 10th Ave, Pompano Beach, FL 33069, EUA</p>
     </div>
     <div className={styles.box}>

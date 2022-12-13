@@ -3,8 +3,8 @@ import styles from './styles/Destaques.module.css';
 import destaque from '../img/destaques/1.png'
 const Destaques = () => {
   return (
-    <section>
-                  <h1><strong>#BB SPOTLIGHT</strong></h1>
+    <section className={styles.title}>
+                  <h1><strong>LET'S WORK TOGETHER</strong></h1>
         <div className={styles.destaque}>
 
             <div className={styles.destaquebox}>

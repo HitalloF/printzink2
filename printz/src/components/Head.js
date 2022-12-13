@@ -11,6 +11,10 @@ const Head = () => {
 
   const { pathname } = useLocation();
 
+const {matches} = window.matchMedia('(max-width:45rem)');
+console.log(matches)
+
+
   React.useEffect(() => {
     setMobileMenu(false);
   }, [pathname]);
