@@ -11,6 +11,14 @@ justify-content: space-evenly
     display: flex;
     justify-content: space-evenly;
     padding: 50px;
+    flex-wrap: wrap;
+}
+.emaill {
+    align-items: center;
+    align-self: center;
+}
+.box {
 
-
+    align-items: center;
+    align-self: center;
 }

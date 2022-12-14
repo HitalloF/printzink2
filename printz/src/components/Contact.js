@@ -1,6 +1,8 @@
 import React from 'react'
 import Email from './Email';
 import styles from './styles/Contact.module.css';
+import map from '../img/map.png'
+import Map from './Map';
 const Contact = () => {
 
   React.useEffect(() => {
@@ -11,16 +13,17 @@ const Contact = () => {
   return (
     <div className={styles.container}>
       <div className={styles.contatobox}>
-      <div className={styles.email}>
+      <div className={styles.emaill}>
     <Email />
     </div >
-    <div className={styles.box}>
+    <div className={styles.mapbox}>
 
-      <h1>MAP</h1>
-
+    <Map />
+     
+      </div>
     </div>
     </div>
-    </div>
+    
   )
 }
 

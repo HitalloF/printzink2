@@ -40,4 +40,22 @@
     justify-content: center;
    
 }
+.destaquebox a {
+    text-align: center;
+    margin: 0 auto;
+    align-items: center;
+    justify-content: center;
+}
 
+.getstart{
+text-align: center;
+
+}
+.getstart a{
+    text-decoration: none;
+    color: white;
+    font-weight: bold;    
+    }
+    .getstart a:hover{
+        text-shadow:0px 5px 10px white;
+        }

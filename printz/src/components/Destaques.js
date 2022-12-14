@@ -8,7 +8,7 @@ const Destaques = () => {
         <div className={styles.destaque}>
 
             <div className={styles.destaquebox}>
-                <img src={destaque}></img>
+            <iframe width="1160" height="655" src="https://www.youtube.com/embed/3wUlE33i0mY" title="PRINTZ INK" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
                 <h2><strong>GROW AND BUILD YOUR BRAND</strong></h2>  
                 <div className={styles.destaquetxt}>
                 <ul>
@@ -20,8 +20,9 @@ const Destaques = () => {
                 </ul>
 
                 </div>
-                <button>GET STARTED</button>
+                <div className={styles.getstart}><a href="/contact">GET STARTED</a></div>
             </div>
+
         </div>
 
     </section>

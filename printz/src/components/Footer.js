@@ -25,7 +25,8 @@ const Footer = () => {
     </div>
     <div className={styles.box}>
       <h1>CUSTOMER SERVICE</h1>
-      <p>CONTACT US</p>
+      
+      <a href='/service'><p>CONTACT US</p></a>
       <p>FAQ</p>
       <p></p>
 
@@ -34,7 +35,7 @@ const Footer = () => {
     <div className={styles.box}>
       <h1>SOCIAL MIDIA</h1>
       <div className={styles.boxredes}>
-      <img src={iconinsta}></img> <img src={icontt}></img><img src={iconfb}></img>
+      <a href='https://www.instagram.com/printzink/'><img src={iconinsta}/> </a><img src={icontt}></img><img src={iconfb}></img>
       </div>
     </div>
 

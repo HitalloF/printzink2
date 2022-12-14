@@ -36,10 +36,11 @@ const Email = () => {
 
     return (
         <div className={styles.container}>
-            <div className={styles.boxemail}>
+              <div className={styles.boxemail}>
             <h1 className="title">Contato</h1>
 
-            <form className="form" onSubmit={sendEmail}>
+            <form className={styles.form} onSubmit={sendEmail}>
+
                 <div className={styles.box}>
                     <input
                         className="input"
@@ -67,8 +68,9 @@ const Email = () => {
                     />
                 </div>
 
-                <input className={styles.button} type="submit" value="Enviar" />
             </form>
+            
+            <input className={styles.button} type="submit" value="Enviar" />
             </div>
         </div>
     )
