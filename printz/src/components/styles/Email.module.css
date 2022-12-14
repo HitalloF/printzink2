@@ -1,0 +1,33 @@
+ .container {
+   box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.75); 
+
+ }
+
+ .container form {
+    align-items: center;
+    justify-content: center;
+ }
+ .box {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+   }
+ .box input {
+  width: 300px;
+    align-items: center;
+  justify-content: center;
+ }
+ .form button {
+  width: 300px;
+    align-items: center;
+  justify-content: center;
+ }
+.textarea {
+  width: 300px;
+}
+ .boxemail {
+
+  width: 500px;
+
+
+ }

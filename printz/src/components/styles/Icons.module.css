@@ -12,7 +12,9 @@
 .iconbox img {
     width: 140px;
 }
-
+.iconbox img:hover {
+        
+}
 @media only screen and (max-width: 600px) {
     .icons li {
         margin: 0 auto;

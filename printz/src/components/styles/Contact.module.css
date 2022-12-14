@@ -1,3 +1,16 @@
 .contact h1,h2,p{
  text-align:  center;
 }
+.container {
+
+justify-content: space-evenly
+   
+}
+
+.contatobox {
+    display: flex;
+    justify-content: space-evenly;
+    padding: 50px;
+
+
+}

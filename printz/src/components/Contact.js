@@ -1,4 +1,5 @@
 import React from 'react'
+import Email from './Email';
 import styles from './styles/Contact.module.css';
 const Contact = () => {
 
@@ -8,14 +9,16 @@ const Contact = () => {
 
 
   return (
-    <div className='container'>
-      <div className={styles.contact}>
-      <h1>Contact</h1>
-      <h2>Email</h2>
-      <p><strong>sc@printzink.com</strong></p>
-    <p><strong>hb@printzink.com</strong></p> 
-      <h2>Phone Number</h2>
-      <p>PHONE NUMBER:<strong>561 599 1760</strong></p>
+    <div className={styles.container}>
+      <div className={styles.contatobox}>
+      <div className={styles.email}>
+    <Email />
+    </div >
+    <div className={styles.box}>
+
+      <h1>MAP</h1>
+
+    </div>
     </div>
     </div>
   )
