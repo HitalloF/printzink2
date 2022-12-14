@@ -13,21 +13,21 @@ const Vitrine = () => {
             <ul>
                 <li>
                     <div className={styles.vitrinebox}>
-                    <a href='service'><img src={vitrine1}></img> </a>
+                    <a href='https://printzink.com/service'><img src={vitrine1}></img> </a>
                     <h2>HEAT PRESS</h2>
 
                     </div>
                     </li>
                     <li>
                     <div className={styles.vitrinebox}>
-                    <a href='service'><img src={vitrine2}></img> </a>
+                    <a href='https://printzink.com/service'><img src={vitrine2}></img> </a>
                     <h2>SILK-SCREEN</h2>
 
                     </div>
                     </li>
                     <li>
                     <div className={styles.vitrinebox}>
-                    <a href='service'  ><img src={vitrine3}></img> </a>
+                    <a href='https://printzink.com/service'  ><img src={vitrine3}></img> </a>
                     <h2>EMBROIDERY</h2>
 
                     </div>

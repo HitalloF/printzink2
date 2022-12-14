@@ -26,7 +26,7 @@ const Footer = () => {
     <div className={styles.box}>
       <h1>CUSTOMER SERVICE</h1>
       
-      <a href='/service'><p>CONTACT US</p></a>
+      <a href='https://printzink.com/contact'><p>CONTACT US</p></a>
       <p>FAQ</p>
       <p></p>
 
