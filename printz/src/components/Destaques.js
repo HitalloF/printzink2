@@ -20,7 +20,7 @@ const Destaques = () => {
                 </ul>
 
                 </div>
-                <div className={styles.getstart}><a href="/contact">GET STARTED</a></div>
+                <div className={styles.getstart}><a href="contact">GET STARTED</a></div>
             </div>
 
         </div>
