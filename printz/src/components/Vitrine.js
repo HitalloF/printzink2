@@ -14,21 +14,21 @@ const Vitrine = () => {
                 <li>
 
                     <div className={styles.vitrinebox}>
-                    <NavLink to="/service"><img src={vitrine1}></img></NavLink>
+                    <NavLink to="/service/heatpress"><img src={vitrine1}></img></NavLink>
                     <h2>HEAT PRESS</h2>
 
                     </div>
                     </li>
                     <li>
                     <div className={styles.vitrinebox}>
-                    <NavLink to="/service"><img src={vitrine2}></img> </NavLink>
+                    <NavLink to="/service/silkscreen"><img src={vitrine2}></img> </NavLink>
                     <h2>SILK-SCREEN</h2>
 
                     </div>
                     </li>
                     <li>
                     <div className={styles.vitrinebox}>
-                    <NavLink to="/service"><img src={vitrine3}></img> </NavLink>
+                    <NavLink to="/service/embroidery"><img src={vitrine3}></img> </NavLink>
                     <h2>EMBROIDERY</h2>
 
                     </div>

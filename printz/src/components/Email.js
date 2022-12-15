@@ -11,10 +11,7 @@ const Email = () => {
     function sendEmail(e) {
         e.preventDefault();
 
-        if (name === '', email === '', message === '') {
-            alert("COMPLETE ALL FIELDS")
-            return
-        }
+  
 
         const templateParams = {
             from_name: name,
@@ -67,10 +64,10 @@ const Email = () => {
                         value={message}
                     />
                 </div>
-
+                <div className={styles.button}><input type="submit" value="Enviar" /></div>
             </form>
             
-           <div className={styles.button}><input type="submit" value="Enviar" /></div>
+
             </div>
          
         </div>

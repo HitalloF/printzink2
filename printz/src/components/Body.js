@@ -1,7 +1,5 @@
 import React from 'react'
 import Home from './Home'
-import wallpaper from '../img/wallpaper.png'
-import styles from './styles/Body.module.css';
 import Banner from './Banner';
 import Vitrine from './Vitrine';
 import Icons from './Icons';

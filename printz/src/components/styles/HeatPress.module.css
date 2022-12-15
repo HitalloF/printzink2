@@ -1,0 +1,57 @@
+
+.sectionService {
+    padding: 15px;
+}
+.silk h2,h1,h3,li{
+    text-align: center;
+    padding: 15px;
+    font-weight: bold;
+}
+
+.silk h2, h3{
+    font-size: 1.5rem;
+    color:darkgray
+}
+
+.silk li {
+    list-style: none;
+}
+
+.txtImg {
+    display: flex   ;
+    align-items: center;
+    justify-content: center;
+    flex-wrap:wrap-reverse
+}
+.txtImg img {
+    max-width: 400px;
+}
+
+
+@media only screen and (max-width: 600px) {
+    .silk p,li{
+    
+     margin: auto;
+    }
+    
+    .silk h2 {
+        font-size: 18px;
+    }
+    .silk p {
+        font-size: 1rem;
+    }
+    .silk li{
+        font-size: 1rem;
+    }
+    .txtImg img {
+        max-width: 200px;
+    }
+
+  }
+
+  @media only screen and (max-width: 1020px) {
+    .silk p,li{
+        margin-left: 50px;
+    }
+    
+  }
