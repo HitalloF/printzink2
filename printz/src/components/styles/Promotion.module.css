@@ -16,7 +16,22 @@ justify-content: center;
     color: white;
 }
 
+.videoMobile { 
+
+    display: none;
+}
+
+
 @media only screen and (max-width: 600px) {
+   .promotion{
+    display: block;
+    padding:0;
+    padding-bottom: 20px;
+   }
+    .videoMobile {
+        display: block;
+        
+    }
     .promotioncase  {
         width: 250px;
     }
@@ -37,5 +52,7 @@ justify-content: center;
     .promotioncase {
         margin-bottom: -40px;
     }
-
+    .videoDesktop {
+        display: none;
+    }
 }

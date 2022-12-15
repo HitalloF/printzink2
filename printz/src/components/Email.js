@@ -70,8 +70,9 @@ const Email = () => {
 
             </form>
             
-            <input className={styles.button} type="submit" value="Enviar" />
+           <div className={styles.button}><input type="submit" value="Enviar" /></div>
             </div>
+         
         </div>
     )
 }

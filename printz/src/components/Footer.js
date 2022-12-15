@@ -4,7 +4,7 @@ import logo from '../img/logopz.png'
 import icontt from '../img/tticon.png';
 import iconinsta from '../img/instaicon.png';
 import iconfb from '../img/fbicon.png';
-import map from '../img/map.png'
+import {NavLink} from 'react-router-dom'
 const Footer = () => {
   return (
     <footer >
@@ -26,7 +26,7 @@ const Footer = () => {
     <div className={styles.box}>
       <h1>CUSTOMER SERVICE</h1>
       
-      <a href='https://printzink.com/contact'><p>CONTACT US</p></a>
+      <NavLink to='contact  '><p>CONTACT US</p></NavLink>
       <p>FAQ</p>
       <p></p>
 

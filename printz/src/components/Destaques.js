@@ -8,7 +8,8 @@ const Destaques = () => {
         <div className={styles.destaque}>
 
             <div className={styles.destaquebox}>
-            <iframe width="1160" height="655" src="https://www.youtube.com/embed/3wUlE33i0mY" title="PRINTZ INK" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+            <div className={styles.videoDesktop}><iframe width="1160" height="655" src="https://www.youtube.com/embed/3wUlE33i0mY" title="PRINTZ INK" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe></div>
+            <div className={styles.videoMobile}> <iframe width="360" height="315" src="https://www.youtube.com/embed/3wUlE33i0mY" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe></div>
                 <h2><strong>GROW AND BUILD YOUR BRAND</strong></h2>  
                 <div className={styles.destaquetxt}>
                 <ul>

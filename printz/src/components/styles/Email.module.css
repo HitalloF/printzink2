@@ -35,5 +35,32 @@
   width: 500px;
  }
 .button {
+  justify-content: center;
 
+  display: flex;
+
+}
+@media only screen and (max-width: 600px) {
+  .container {
+    padding: 0;
+
+    width: 300px;
+  }
+  .boxemail {
+    width: 300px;
+  }
+
+  .box{
+    justify-content: start;
+
+  }
+  .box input {
+    width: 290px;
+      align-items: center;
+    justify-content: center;
+   }
+   .textarea {
+    width: 290px;
+    height: 150px;
+  }
 }

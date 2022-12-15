@@ -20,13 +20,6 @@ console.log(matches)
   }, [pathname]);
 
   
-  let activeStyle = {
-    textShadow: "0 0 10px #FFFFFF", 
-    textDecoration: "underline",
-    color: "green",
-  };
-
-  let activeClassName = "underline";
 
 
   return (

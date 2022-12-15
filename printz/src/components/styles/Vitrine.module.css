@@ -38,6 +38,10 @@
 
 }
 
+.videoMobile {
+
+    display: none;
+}
 @media only screen and (max-width: 600px) {
     .vitrinebox  {
         max-width   : 130px;
@@ -48,10 +52,12 @@
 
      .vitrine li {
         margin: 0 auto;
+
     }
+
     .vitrinebox img  {
 
-        max-width: 130px;
+        max-width: 100px;
     }
 
     .title h1{
@@ -61,5 +67,9 @@
     .vitrine p {
         display: none;
     }
+
+
+
+    
   }
 
