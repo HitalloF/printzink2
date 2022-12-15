@@ -24,13 +24,16 @@ justify-content: center;
 
 @media only screen and (max-width: 600px) {
    .promotion{
-    display: block;
+    display: flex;
     padding:0;
     padding-bottom: 20px;
+    align-items: center;
+    margin: 0 auto;
+    flex-wrap: wrap;
+  
    }
     .videoMobile {
         display: block;
-        
     }
     .promotioncase  {
         width: 250px;
@@ -49,9 +52,7 @@ justify-content: center;
         margin-top: -30px;
         color: white;
     }
-    .promotioncase {
-        margin-bottom: -40px;
-    }
+
     .videoDesktop {
         display: none;
     }

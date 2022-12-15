@@ -1,6 +1,6 @@
 import React from 'react'
 import styles from './styles/Destaques.module.css';
-import destaque from '../img/destaques/1.png'
+
 const Destaques = () => {
   return (
     <section className={styles.title}>
