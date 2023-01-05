@@ -39,11 +39,11 @@ const Footer = () => {
       </div>
     </div>
 
-
-      </div>
-      <div className={styles.logo}>
+    <div className={styles.logo}>
       <img src={logo}></img>
       </div>
+      </div>
+
       </div>
     </footer>
   )

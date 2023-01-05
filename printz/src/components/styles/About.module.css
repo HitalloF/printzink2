@@ -1,0 +1,21 @@
+
+.about p{
+  max-width: 500px;
+
+
+  
+}
+.aboutIMG {
+display: flex;
+justify-content: center;
+align-items: center;
+
+}
+.aboutIMG img {
+    width: 250px;
+}
+.aboutTXT {
+    display: flex;
+    justify-content: center;
+    align-items: center; 
+}

@@ -2,6 +2,11 @@ import React from 'react'
 import styles from './styles/HeatPress.module.css'
 import Heat from '../img/services/heat.png'
 const HeatPress = () => {
+
+  React.useEffect(() => {
+    document.title = 'PrintZInk - Heat Press';
+  }, []);
+
   return (
     <div>
       <h1>HEAT PRESS</h1>

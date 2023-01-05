@@ -1,7 +1,6 @@
 import React from 'react'
 import Email from './Email';
 import styles from './styles/Contact.module.css';
-import map from '../img/map.png'
 import Map from './Map';
 const Contact = () => {
 

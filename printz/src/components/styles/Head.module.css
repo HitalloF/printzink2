@@ -72,7 +72,7 @@ display: flex;
   }
 
   .bgheader {
-    background-image: url('../../img/background.png');
+    background: black;
     background-repeat: no-repeat;
     background-position: center ;
 
@@ -164,6 +164,9 @@ display: flex;
     background: #eee;
   }
 
+
+
+
   @media only screen and (max-width: 600px)  {
     .bgheader {
       background: black;
@@ -173,5 +176,12 @@ display: flex;
     .header {
 
       background: black;
+    }
+    .header a {
+      text-decoration: none;
+      color: black;
+      font-weight: bold;
+  
+  text-shadow: #e0e0e0 1px 1px 0;
     }
   }

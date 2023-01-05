@@ -2,6 +2,10 @@ import React from 'react'
 import styles from './styles/Silk.module.css'
 import img from '../img/services/silk.jpg'
 const Silk = () => {
+  React.useEffect(() => {
+    document.title = 'PrintZInk - Silk Screen';
+  }, []);
+
   return (
     <div>        <div >
     <h1>SILK CREEN</h1>

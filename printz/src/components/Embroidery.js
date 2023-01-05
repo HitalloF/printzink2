@@ -2,6 +2,9 @@ import React from 'react'
 import styles from './styles/Embroidery.module.css'
 import img from '../img/services/bordado.png'
 const Embroidery = () => {
+  React.useEffect(() => {
+    document.title = 'PrintZInk - Embroidery';
+  }, []);
   return (
     <div>
 

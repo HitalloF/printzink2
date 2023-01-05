@@ -25,6 +25,7 @@ const Email = () => {
                 setName('')
                 setEmail('')
                 setMessage('')
+                alert("EMAIL SENT!")
             }, (err) => {
                 console.log("Erro: ", err)
             })
@@ -34,15 +35,15 @@ const Email = () => {
     return (
         <div className={styles.container}>
               <div className={styles.boxemail}>
-            <h1 className="title">Contato</h1>
-
+            <h1 className="title">CONTACT</h1>
+            <h2>Ask for your budget</h2>
             <form className={styles.form} onSubmit={sendEmail}>
 
                 <div className={styles.box}>
                     <input
                         className="input"
                         type="text"
-                        placeholder="Digite seu nome"
+                        placeholder="Type your name"
                         onChange={(e) => setName(e.target.value)}
                         value={name}
                     />
@@ -51,7 +52,7 @@ const Email = () => {
                     <input
                         className={styles.input}
                         type="text"
-                        placeholder="Digite seu email"
+                        placeholder="Type your e-mail"
                         onChange={(e) => setEmail(e.target.value)}
                         value={email}
                     />
@@ -59,12 +60,12 @@ const Email = () => {
                 <div  className={styles.box}>
                     <textarea
                         className={styles.textarea}
-                        placeholder="Digite sua mensagem..."
+                        placeholder="Type your message..."
                         onChange={(e) => setMessage(e.target.value)}
                         value={message}
                     />
                 </div>
-                <div className={styles.button}><input type="submit" value="Enviar" /></div>
+                <div className={styles.button}><input type="submit" value="Send" /></div>
             </form>
             
 
