@@ -39,7 +39,7 @@ const Footer = () => {
       </div>
     </div>
 
-    <div className={styles.logo}>
+    <div className={styles.logobox} >
       <img src={logo}></img>
       </div>
       </div>

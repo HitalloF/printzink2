@@ -19,8 +19,14 @@ const Service = () => {
         <div >
         <h1>SILK CREEN</h1>
         <p>At our company, we offer high-quality screen printing services for a variety of commercial and retail applications.<br/> Screen printing, also known as silkscreen printing, is a popular method of printing because it is versatile,<br/>  durable, cost-efficient, and produces vibrant, long-lasting results.<br/></p>
+       
+        <p>One of the main advantages of screen printing is its cost-effectiveness. <br/>It is ideal for large quantity printing and when fewer ink colors are needed. This makes it a <br/>cost-efficient option for businesses looking to mass produce their products. <br/>Additionally, screen printing allows for detailed designs, such as small text and fine lines, <br/>giving you the ability to create unique and authentic outputs.</p>
+        <p>We can print on a wide range of materials, including fabric, plastic, metal, and more. <br/>This means that our screen printing services can be used to produce a variety of products, <br/> such as T-shirts, hats, banners, posters, and more. We can also print on unique shapes, <br/> such as mugs and bottles, allowing you to create truly one-of-a-kind products.</p>
+        
+
         <div className={styles.txtImg}>
           <div>
+            
         <h2>Advantages of Silkscreen Printing</h2>
         <ul>
        <li>•	Cheap for large quantity printing.</li> 
@@ -33,9 +39,7 @@ const Service = () => {
         </div>
         </div>
         
-        <p>One of the main advantages of screen printing is its cost-effectiveness. <br/>It is ideal for large quantity printing and when fewer ink colors are needed. This makes it a cost-efficient option for businesses looking to mass produce their products. <br/>Additionally, screen printing allows for detailed designs, such as small text and fine lines, <br/>giving you the ability to create unique and authentic outputs.</p>
-        <p>We can print on a wide range of materials, including fabric, plastic, metal, and more. <br/>This means that our screen printing services can be used to produce a variety of products, <br/> such as T-shirts, hats, banners, posters, and more. We can also print on unique shapes, <br/> such as mugs and bottles, allowing you to create truly one-of-a-kind products.</p>
-        </div>
+</div>
 <h1>HEAT PRESS</h1>
 <p>A heat press is used to permanently apply a heat transfer to a surface. <br/> Common transfer types are Heat Transfer Vinyl cut with a vinyl cutter, Printable Heat Transfer <br/> Vinyl, Inkjet Transfer Paper, Laser Transfer Paper, <br/> Plastisol Transfers, and Sublimation.</p>
 <p>HTV works best on cotton or polyester or cotton/poly blends. Other synthetic fabrics,<br/>  like acrylic, won't work correctly because they will melt under the heat of an iron. <br/> For more advanced crafters, you can apply HTV to mugs,<br/>  baseball hats, footballs and even wood!</p>

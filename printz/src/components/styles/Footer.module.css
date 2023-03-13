@@ -5,14 +5,7 @@ justify-content: center;
 flex-wrap: wrap;
 
 }
-.footerlogo{
-    align-items: center;
-    align-self: center;
-    display: flex;
-    justify-content: space-around;
-    background: black;
 
-}
 .footerlogo img {
     max-width: 150px;
     max-height: 150px;
@@ -49,6 +42,13 @@ flex-wrap: wrap;
     padding: 5px;
 
 }
+.logobox {
+    align-items: center;
+    align-self: center;
+    display: flex;
+    justify-content: space-around;
+}
+
 
 @media only screen and (max-width: 600px) {
     .footerlogo img {

@@ -55,7 +55,7 @@ console.log(matches)
             }}
             to="/service"
           >
-            SERVICE
+            SERVICES
           </NavLink>
           <NavLink
             activeStyle={{
