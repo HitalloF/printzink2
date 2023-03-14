@@ -3,6 +3,7 @@ background: black;
 display: flex;
 justify-content: center;
 flex-wrap: wrap;
+bottom: 0;
 
 }
 

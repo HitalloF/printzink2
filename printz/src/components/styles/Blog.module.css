@@ -1,0 +1,19 @@
+/* PAG BLOG  */
+.blogs {
+    
+    display: flex;
+    justify-content: space-around;
+    padding: 50px;
+}
+
+.case {
+    margin: 0 auto;
+    align-items: center;
+    justify-content: center;
+    align-self: center;
+}
+
+.case img{
+    width: 300px;
+
+}

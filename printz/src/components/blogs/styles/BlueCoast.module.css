@@ -1,0 +1,87 @@
+/* All PAG */
+.cost{
+    padding: 50px;
+    background: black;
+}
+.cost h1{
+    color:  white;
+}
+.cost p{
+    color:  white;
+}
+.top {
+    display: flex;
+    align-items: center;
+    justify-content:space-around;
+    justify-items: center;
+}
+
+.topimg img {
+    max-width: 1100px;
+    padding: 10px;
+}
+
+/* */
+.bluecost{
+    display: flex;
+    align-items: center;
+    justify-content:space-around;
+}
+/*left blue coast*/
+.left{
+display: flex;
+}
+.left img{
+ max-width: 550px;
+ padding: 10px;
+}
+/* VIDEO */
+
+.video{
+    background: black;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+
+/*Responsivo 600 */
+@media only screen and (max-width: 600px) {
+
+    .left{
+        display: block;
+        background: black;
+        }
+    .topimg img {
+        align-items: center;
+        justify-content: center;
+        width: 250px;
+        flex-wrap: wrap;
+    }
+    .left img{
+        max-width: 3002px;
+        display: flex;
+        flex-wrap: wrap;
+       }
+}
+/*Responsivo 950 */
+@media only screen and (max-width: 950px) {
+    .topimg img {
+        align-items: center;
+        justify-content: center;
+        width: 400px;
+        flex-wrap: wrap;
+    }
+    .left img{
+        max-width: 250px;
+       }
+    .cost h1{
+        font-size: 50px;
+    }
+    .cost h3{
+        font-size: 15px;
+        color: white;
+       text-decoration: none;
+    }
+}

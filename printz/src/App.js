@@ -12,6 +12,8 @@ import Body from "./components/Body";
 import HeatPress from "./components/HeatPress";
 import Silk from "./components/Silk";
 import Embroidery from "./components/Embroidery";
+import Blog from "./components/Blog";
+import BlueCoast from "./components/blogs/BlueCoast";
 function App() {
   return (
     <section>
@@ -24,6 +26,8 @@ function App() {
        <Route path='/service/embroidery' element={<Embroidery/>}/>
        <Route path='/about' element={<About/>}/>
        <Route path='/contact' element={<Contact />}/>
+       <Route path='/blog' element={<Blog />}/>
+       <Route path='/blog/bluecoast' element={<BlueCoast />}/>
     </Routes>
     
     <Footer/>
